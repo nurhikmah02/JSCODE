@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="end">
+<head>
+    <title> jsobject </title>
+<body>
+    <p id = "demo"></p>
+    <script>
+        //create an object 
+        const person {
+            firstName = "John",
+            lastName = "Doe",
+            specification (){
+                return "firstName" + this.firstName + ",lastName"
+ +this.lastName;}
+        };
+        alert("person");
+        document.getElementById ("demo").innerHTML = "person" +  person.specification ();
+
+
+    </script>
+</head> 
+</html>
